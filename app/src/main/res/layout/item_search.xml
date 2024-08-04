@@ -66,7 +66,7 @@
             app:layout_constraintStart_toStartOf="@+id/tv_product_title"
             app:layout_constraintTop_toBottomOf="@+id/tv_product_title"
             app:layout_constraintVertical_bias="0.869"
-            tools:text="₺22.90" />
+            tools:text="$22.90" />
 
         <TextView
             android:id="@+id/tv_product_sale_price"
@@ -81,14 +81,14 @@
             app:layout_constraintEnd_toStartOf="@+id/fab_add_to_cart"
             app:layout_constraintHorizontal_bias="0.555"
             app:layout_constraintStart_toEndOf="@+id/tv_product_price"
-            tools:text="₺22.90" />
+            tools:text="$22.90" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_add_to_cart"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginBottom="15dp"
-            android:backgroundTint="@color/yellow"
+            android:backgroundTint="#9D80A2"
             android:contentDescription="FAB"
             android:scaleType="fitCenter"
             android:src="@drawable/ic_add"

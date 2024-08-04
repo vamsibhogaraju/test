@@ -29,7 +29,7 @@ class CartAdapter(
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(product: ProductUI) = with(binding) {
             tvProductTitle.text = product.title
-            tvProductDesc.text = product.description
+            //tvProductDesc.text = product.description
             ivProduct.loadImage(product.imageOne)
 
             var productCount = 1
@@ -71,11 +71,11 @@ class CartAdapter(
             if (product.saleState == true) {
                 tvProductSalePrice.visible()
                 tvProductSalePrice.textSize = 14f
-                tvProductPrice.text = "₺${product.salePrice}"
-                tvProductSalePrice.setText(Html.fromHtml("<s>₺${product.price}</s>"))
+                tvProductPrice.text = "$${product.salePrice}"
+                tvProductSalePrice.setText(Html.fromHtml("<s>$${product.price}</s>"))
 
             } else {
-                tvProductPrice.text = "₺${product.price}"
+                tvProductPrice.text = "$${product.price}"
 
             }
         }

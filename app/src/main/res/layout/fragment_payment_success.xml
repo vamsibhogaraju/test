@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_marginBottom="434dp"
-        android:background="@drawable/button"
+        android:backgroundTint="#9D80A2"
         android:elevation="10dp"
         android:text="@string/continue_shopping"
         android:textColor="@color/black"

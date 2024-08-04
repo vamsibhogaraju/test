@@ -34,7 +34,7 @@
         android:layout_width="364dp"
         android:layout_height="67dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/button"
+        android:backgroundTint="#9D80A2"
         android:elevation="10dp"
         android:text="@string/sign_up"
         android:textColor="@color/black"

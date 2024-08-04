@@ -20,13 +20,13 @@
         android:id="@+id/materialToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
+        android:background="#9D80A2"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:logo="@mipmap/ic_taptaze">
+        app:logo="@drawable/taptazelogo2">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"

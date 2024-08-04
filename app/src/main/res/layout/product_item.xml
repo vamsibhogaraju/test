@@ -57,6 +57,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="10dp"
+            android:maxLines="0"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_product_title"
@@ -69,12 +70,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="8dp"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/tv_product_desc"
             app:layout_constraintTop_toBottomOf="@+id/tv_product_desc"
-            tools:text="₺22.90" />
+            tools:text="$2992.90" />
 
         <TextView
             android:id="@+id/tv_product_sale_price"
@@ -91,14 +92,15 @@
             app:layout_constraintStart_toEndOf="@+id/tv_product_price"
             app:layout_constraintTop_toBottomOf="@+id/tv_product_desc"
             app:layout_constraintVertical_bias="0.656"
-            tools:text="₺22.90" />
+            tools:text="$22.90" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_add_to_cart"
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_marginBottom="15dp"
-            android:backgroundTint="@color/yellow"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#9D80A2"
             android:contentDescription="FAB"
             android:scaleType="fitCenter"
             android:src="@drawable/ic_add"
@@ -108,6 +110,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toEndOf="@+id/tv_product_price"
             app:layout_constraintTop_toBottomOf="@+id/tv_product_desc"
+            app:layout_constraintVertical_bias="1.0"
             app:maxImageSize="32dp" />
 
 

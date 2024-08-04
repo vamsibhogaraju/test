@@ -32,7 +32,7 @@ class DiscountProductsAdapter(
     ) : RecyclerView.ViewHolder(binding.root) {
         fun bind(product: ProductUI) = with(binding) {
             tvProductTitle.text = product.title
-            tvProductDesc.text = product.description
+            //tvProductDesc.text = product.description
             ivProduct.loadImage(product.imageOne)
 
 
@@ -66,10 +66,10 @@ class DiscountProductsAdapter(
                 tvProductPrice.textSize = 12f
                 tvProductSalePrice.visible()
                 //bunlar düzeltilcek
-                tvProductSalePrice.text = "₺${product.salePrice}"
-                tvProductPrice.setText(Html.fromHtml("<s>₺${product.price}</s>"))
+                tvProductSalePrice.text = "$${product.salePrice}"
+                tvProductPrice.setText(Html.fromHtml("<s>$${product.price}</s>"))
             } else {
-                tvProductPrice.text = "₺${product.price}"
+                tvProductPrice.text = "$${product.price}"
             }
         }
     }
