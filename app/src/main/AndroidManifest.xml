@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_taptaze_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Taptaze"
+        android:theme="@style/Theme.gadgetgalaxy"
         tools:targetApi="31">
         <activity
             android:name=".ui.main.MainActivity"

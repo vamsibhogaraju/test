@@ -6,7 +6,7 @@
     app:startDestination="@id/splashFragment">
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.taptaze.ui.splash.SplashFragment"
+        android:name="com.example.gadgetgalaxy.ui.splash.SplashFragment"
         android:label="SplashFragment"
         tools:layout="@layout/fragment_splash">
         <action
@@ -18,7 +18,7 @@
     </fragment>
     <fragment
         android:id="@+id/signinFragment"
-        android:name="com.example.taptaze.ui.login.signin.SigninFragment"
+        android:name="com.example.gadgetgalaxy.ui.login.signin.SigninFragment"
         android:label="SigninFragment"
         tools:layout="@layout/fragment_signin">
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.example.taptaze.ui.login.signup.SignupFragment"
+        android:name="com.example.gadgetgalaxy.ui.login.signup.SignupFragment"
         android:label="SignupFragment"
         tools:layout="@layout/fragment_signup">
         <action
@@ -42,7 +42,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.taptaze.ui.main.home.HomeFragment"
+        android:name="com.example.gadgetgalaxy.ui.main.home.HomeFragment"
         android:label="HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
@@ -54,7 +54,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.taptaze.ui.main.search.SearchFragment"
+        android:name="com.example.gadgetgalaxy.ui.main.search.SearchFragment"
         android:label="SearchFragment"
         tools:layout="@layout/fragment_search">
         <action
@@ -63,7 +63,7 @@
     </fragment>
     <fragment
         android:id="@+id/cartFragment"
-        android:name="com.example.taptaze.ui.main.cart.CartFragment"
+        android:name="com.example.gadgetgalaxy.ui.main.cart.CartFragment"
         android:label="CartFragment"
         tools:layout="@layout/fragment_cart">
         <action
@@ -75,7 +75,7 @@
     </fragment>
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.example.taptaze.ui.main.favorite.FavoriteFragment"
+        android:name="com.example.gadgetgalaxy.ui.main.favorite.FavoriteFragment"
         android:label="FavoriteFragment"
         tools:layout="@layout/fragment_favorite">
         <action
@@ -84,7 +84,7 @@
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.taptaze.ui.main.profile.ProfileFragment"
+        android:name="com.example.gadgetgalaxy.ui.main.profile.ProfileFragment"
         android:label="ProfileFragment"
         tools:layout="@layout/fragment_profile">
         <action
@@ -96,7 +96,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.example.taptaze.ui.main.detail.DetailFragment"
+        android:name="com.example.gadgetgalaxy.ui.main.detail.DetailFragment"
         android:label="DetailFragment"
         tools:layout="@layout/fragment_detail">
         <argument
@@ -108,7 +108,7 @@
     </fragment>
     <fragment
         android:id="@+id/paymentFragment"
-        android:name="com.example.taptaze.ui.main.payment.PaymentFragment"
+        android:name="com.example.gadgetgalaxy.ui.main.payment.PaymentFragment"
         android:label="PaymentFragment"
         tools:layout="@layout/fragment_payment">
         <action
@@ -117,7 +117,7 @@
     </fragment>
     <fragment
         android:id="@+id/paymentSuccessFragment"
-        android:name="com.example.taptaze.ui.main.paymentsuccess.PaymentSuccessFragment"
+        android:name="com.example.gadgetgalaxy.ui.main.paymentsuccess.PaymentSuccessFragment"
         android:label="PaymentSuccessFragment"
         tools:layout="@layout/fragment_payment_success">
         <action
